@@ -1,0 +1,14 @@
+{
+  "name": "trustbuilder-pilot",
+  "version": "2.0.0",
+  "private": true,
+  "description": "TrustBuilder AI conversational assessment pilot",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/domain.test.cjs tests/server.test.mjs && node tests/simulation.node.cjs",
+    "test:browser": "node tests/browser-acceptance.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
